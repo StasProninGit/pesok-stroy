@@ -1,0 +1,19 @@
+/* main */
+@import "normalize.css";
+@import "style.css";
+
+
+/* components */
+
+@import "components/header.css";
+@import "components/produkt.css";
+
+/* colore */
+
+:root {
+  --black: black;
+  --white: white;
+  --brown :#872A18;
+  --gray: #3D3C3E;
+
+}
