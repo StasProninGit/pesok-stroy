@@ -1,5 +1,5 @@
 .header {
-  padding: 36px 0;
+  padding: 16px 0;
   border-bottom: 1px solid #C4C4C4;
   background-color: #fff;
 
@@ -11,8 +11,21 @@
   flex-direction: row;
 }
 
+.header__contact {
+  margin-right: 50px;
+}
+
 .header__logo {
+  display: flex;
+  align-items: center;
   margin-right: auto;
+  width: 150px;
+}
+
+.header__logo__name {
+  font-weight: 600;
+  font-size: 25px;
+  white-space: nowrap;
 }
 
 .header__nav {

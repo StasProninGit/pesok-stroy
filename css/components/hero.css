@@ -1,0 +1,22 @@
+
+.hero{
+  width: 100%;
+  /* max-width: 1200px; */
+  /* height: 500px; */
+  text-align: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+
+.hero__wrapper {
+    background-image: linear-gradient(to top, rgba(89,106,114, 0.6), rgba(219, 219, 214, 0.4)), url(
+      "/img/2.webp");
+
+    background-size: cover;
+    color: var(--white);
+
+  }
+
+
+
