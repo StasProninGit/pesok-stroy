@@ -1,3 +1,11 @@
+.produkt {
+  margin-bottom: 60px;
+}
+
+.produkt__text {
+  margin-bottom: 60px;
+}
+
 article {
   --img-scale: 1.001;
   --title-color: black;

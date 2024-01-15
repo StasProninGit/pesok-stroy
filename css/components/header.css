@@ -1,9 +1,60 @@
 .header {
-  padding: 16px 0;
   border-bottom: 1px solid #C4C4C4;
   background-color: #fff;
 
 
+}
+
+.header__top {
+  background-color: #3172B9;
+  color: var(--white);
+}
+
+.header__top__list {
+
+  padding: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.header__top__area {
+  display: flex;
+  gap: 15px;
+}
+
+.header__top__area__mes i {
+  content: "";
+  background: url(/img/mesor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 48px;
+  height: 48px;
+}
+
+.header__top__area__tel i {
+  content: "";
+  background: url(/img/telor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 48px;
+  height: 48px;
+}
+
+.header__top__area__time i {
+  content: "";
+  background: url(/img/timeor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 48px;
+  height: 48px;
+}
+
+
+.header__top__area__info {
+  display: flex;
+  flex-direction: column;
 }
 
 .header__container {
@@ -11,9 +62,7 @@
   flex-direction: row;
 }
 
-.header__contact {
-  margin-right: 50px;
-}
+
 
 .header__logo {
   display: flex;
@@ -42,7 +91,7 @@
 
 .nav__link {
   font-weight: 600;
-  font-size: 15px;
+  font-size: 20px;
   color: #1C1C1C;
   transition: color 0.5s ease-in-out;
 }

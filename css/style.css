@@ -138,3 +138,10 @@ p {
 :root {
   --gap: 30px;
 }
+
+.section__title__span {
+  padding: 10px;
+  background: var(--orange);
+  color: var(--white);
+  border-radius: 3px;
+}

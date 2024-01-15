@@ -8,6 +8,7 @@
 @import "components/header.css";
 @import "components/produkt.css";
 @import "components/hero.css";
+@import "components/advantage.css";
 
 /* colore */
 
@@ -16,5 +17,7 @@
   --white: white;
   --brown :#872A18;
   --gray: #3D3C3E;
+  --orange: #ee591f;
+  --green: #84e271;
 
 }
