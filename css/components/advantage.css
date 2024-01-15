@@ -1,1 +1,94 @@
+.advantage {
+  margin-bottom: 60px;
+}
 
+.advantage__title {
+  margin-bottom: 60px;
+}
+
+.advantage__text {
+  margin-bottom: 60px;
+}
+
+.advantage__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.advantage__list__item__cart {
+    max-width: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 26px 22px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.advantage__list__item__cart__content__title {
+  margin-bottom: 15px;
+}
+
+.advantage__list__item__cart__icon1 i {
+  margin-right: 15px;
+  content: "";
+  background: url(/img/diamondor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 84px;
+}
+
+.advantage__list__item__cart__icon2 i {
+  margin-right: 15px;
+  content: "";
+  background: url(/img/guarantor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 84px;
+}
+
+.advantage__list__item__cart__icon3 i {
+  margin-right: 15px;
+  content: "";
+  background: url(/img/manageror.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 84px;
+}
+
+.advantage__list__item__cart__icon4 i {
+  margin-right: 15px;
+  content: "";
+  background: url(/img/thumbor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 84px;
+}
+
+.advantage__list__item__cart__icon5 i {
+  margin-right: 15px;
+  content: "";
+  background: url(/img/kamazor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 84px;
+}
+
+.advantage__list__item__cart__icon6 i {
+  margin-right: 15px;
+  content: "";
+  background: url(/img/24or.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 84px;
+  height: 84px;
+}

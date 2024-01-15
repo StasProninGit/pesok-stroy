@@ -1,0 +1,14 @@
+.sert__title {
+  margin-bottom: 60px;
+}
+
+.sert__img {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.sert__img img {
+  max-width: 24%;
+}
