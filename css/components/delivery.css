@@ -1,0 +1,75 @@
+.delivery__content {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.delivery__content__logo {
+  align-self: center;
+}
+
+.delivery__content__wrap {
+  padding: 30px 120px 30px 30px;
+  background-color: rgb(191, 221, 248);
+  border-radius: 15px;
+
+}
+
+.delivery__title {
+  margin-bottom: 120px;
+}
+
+.delivery__content__left__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.delivery__content__left__list li::before{
+  margin-right: 30px;
+  content: "";
+  background: url(/img/galkaor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+
+.delivery__content__left__list li p {
+
+  white-space: nowrap;
+}
+
+.delivery__content__bottom__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.delivery__content__bottom__list li::before {
+  content: "";
+  background: url(/img/car1.svg) no-repeat;
+  position: relative;
+  float: left;
+  top: -40px;
+  left: -20px;
+  width: 124px;
+  height: 124px;
+}
+
+.delivery__content__bottom__list li {
+  font-size: 56px;
+  font-weight: 800;
+  color: #000000;
+}
+
+.delivery__content__bottom {
+  margin-bottom: 60px;
+}
+
+.delivery__content__bottom__title {
+  margin-bottom: 120px;
+}
+
+
+

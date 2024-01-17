@@ -26,7 +26,7 @@ img {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 /* .body_wraper {
@@ -45,7 +45,7 @@ button {
 .container {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 0 20px 0 20px;
+  padding: 0px 0px 0px 0px;
 }
 
 h1,

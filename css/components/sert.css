@@ -2,13 +2,35 @@
   margin-bottom: 60px;
 }
 
-.sert__img {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 15px;
+.sert__img img {
+ max-height: 500px;
 }
 
-.sert__img img {
-  max-width: 24%;
+.sert__content {
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.sert__left__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sert__left__list li::before{
+  margin-right: 30px;
+  content: "";
+  background: url(/img/galkaor.svg) no-repeat;
+  position: relative;
+  float: left;
+  width: 64px;
+  height: 64px;
+}
+
+.sert__left__list li p {
+  white-space: nowrap;
+
 }

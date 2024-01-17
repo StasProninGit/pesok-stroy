@@ -1,0 +1,20 @@
+.about__title {
+  margin-bottom: 60px;
+  font-size: 60px;
+
+}
+
+.about__title span {
+  font-size: 46px;
+}
+
+.about__content {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about__content p {
+  align-self: center;
+  max-width: 50%;
+}

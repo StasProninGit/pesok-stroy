@@ -1,113 +1,65 @@
 .header {
-  border-bottom: 1px solid #C4C4C4;
-  background-color: #fff;
-
-
-}
-
-.header__top {
-  background-color: #3172B9;
-  color: var(--white);
-}
-
-.header__top__list {
-
-  padding: 15px;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  gap: 15px;
-}
-
-.header__top__area {
-  display: flex;
-  gap: 15px;
-}
-
-.header__top__area__mes i {
-  content: "";
-  background: url(/img/mesor.svg) no-repeat;
-  position: relative;
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-
-.header__top__area__tel i {
-  content: "";
-  background: url(/img/telor.svg) no-repeat;
-  position: relative;
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-
-.header__top__area__time i {
-  content: "";
-  background: url(/img/timeor.svg) no-repeat;
-  position: relative;
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-
-
-.header__top__area__info {
-  display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
-.header__container {
-  align-items: center;
+.header__top {
+  border-bottom: 1px solid var(--gray1);
+}
+
+.header__top__content {
+  display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 300;
+  color: var(--gray1);
+  padding: 5px 0;
 }
 
-
-
-.header__logo {
+.header__top__right__list {
   display: flex;
-  align-items: center;
-  margin-right: auto;
-  width: 150px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 15px;
 }
 
-.header__logo__name {
-  font-weight: 600;
-  font-size: 25px;
-  white-space: nowrap;
+/* header__middle  */
+
+.header__middle__time {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray1);
 }
 
-.header__nav {
-  margin-right: 52px;
+.header__middle__call {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray1);
 }
 
-.nav__list {
+.header__middle__content {
+  font-weight: 300;
+  font-size: 16px;
+  color: var(--gray1);
+  padding: 15px 0px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.nav__item:not(:last-child) {
-  margin-right: 52px;
+.header__link i {
+  color: var(--orange);
 }
 
-.nav__link {
-  font-weight: 600;
-  font-size: 20px;
-  color: #1C1C1C;
-  transition: color 0.5s ease-in-out;
+.header__middle__contact__phone i {
+  color: var(--orange);
 }
 
-.nav__link:focus {
-  outline: 1px solid #71A7E2;
-  outline-offset: 2px;
+.header__middle__contact__mail {
+  color: var(--orange);
 }
 
-.nav__link:hover {
-  color: #71A7E2;
-}
-
-.nav__link:active {
-  color: #3172B9;
-  border-bottom: 1px solid #3172B9;
-  outline: none;
-
-}
