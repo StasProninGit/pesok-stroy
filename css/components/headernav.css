@@ -63,3 +63,7 @@
   opacity: 1;
   transform: scaleY(1);
 }
+
+.fa-cog {
+  color: var(--orange);
+}

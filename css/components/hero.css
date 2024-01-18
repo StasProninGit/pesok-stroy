@@ -24,13 +24,20 @@
     font-weight: 900;
     text-align: left;
     color: var(--orange);
+    text-shadow: rgb(7, 7, 7) 3px 3px 3px;
+
+
 
   }
 
   .hero__text {
+    color: #f0f0f0;
+    text-shadow: rgb(7, 7, 7) 3px 3px 3px;
+    max-width: 40%;
     margin-bottom: 60px;
     text-align: left;
     font-size: 26px;
+    line-height: 36px;
   }
 
   .hero__price {
@@ -39,6 +46,7 @@
     font-size: 40px;
     font-weight: 900;
     color: var(--orange);
+    text-shadow: rgb(7, 7, 7) 3px 3px 3px;
   }
 
   /* .header__btn {
@@ -56,44 +64,34 @@
   margin-bottom: 30px;
   padding: 28px 55px;
   overflow: hidden;
-  background: #3172B9;
-  border-radius: 3px;
+  background: none;
+  border: 3px solid var(--orange);
+  background: #52525271;
 }
-
-.hero__article__area__tel i::before {
-  content: "";
-  background: url(/img/tel.svg) no-repeat;
-  position: relative;
-  float: left;
-  width: 48px;
-  height: 48px;
-  stroke: var(--orange);
-}
-
-.hero__article__area__clock i::before {
-  content: "";
-  background: url(/img/clock.svg) no-repeat;
-  position: relative;
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-
-.hero__article__area__mes i::before {
-  content: "";
-  background: url(/img/mes.svg) no-repeat;
-  position: relative;
-  float: left;
-  width: 48px;
-  height: 48px;
-}
-
-
 
 .hero__article__area {
   display: flex;
   flex-direction: row;
   gap: 15px;
+}
+
+.hero__article__area__tel, .hero__article__area__clock {
+  align-self: center;
+}
+
+.fa-phone-square{
+  font-size: 42px;
+  color: var(--orange);
+}
+
+.hero__article__area__clock .fa-clock-o  {
+  font-size: 42px;
+  color: var(--orange);
+}
+
+.hero__article__area__mes .fa-envelope {
+  font-size: 42px;
+  color: var(--orange);
 }
 
 .hero__article__area__info {
@@ -106,46 +104,15 @@
 .hero__article__area__info span {
   font-size: 26px;
   font-weight: 600;
-  color: var(--orange);
   transition: all 0.5s ease-in-out;
 }
 .hero__article__area__info a {
   font-size: 22px;
-  font-weight: 600;
+  font-weight: 900;
   color: var(--black);
-   transition: all 0.5s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
-.hero__article__area__info:hover span {
-  color: var(--green);
-  }
-
-.hero__article:hover {
-  color: var(--green);
-  background-color: rgba(144, 150, 204, 0.6);
+.hero__article:hover a {
+  color: #C4C4C4;
 }
-
-
-
-
-
-
-  /* мегающая кнопка */
-
-  #blink1 {
-    -webkit-animation: blink1 3s linear infinite;
-    animation: blink1 3s linear infinite;
-  }
-  @-webkit-keyframes blink1 {
-    0% { color: rgba(34, 34, 34, 1); }
-    50% { color: rgba(34, 34, 34, 0); }
-    100% { color: rgba(34, 34, 34, 1); }
-  }
-  @keyframes blink1 {
-    0% { color: rgba(34, 34, 34, 1); }
-    50% { color: rgba(34, 34, 34, 0); }
-    100% { color: rgba(34, 34, 34, 1); }
-  }
-
-
-

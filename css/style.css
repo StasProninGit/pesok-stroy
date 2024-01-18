@@ -102,12 +102,16 @@ p {
     position: relative;
     outline: none;
     padding: 15px 35px;
-    background: #3172B9;
-    border-radius: 3px;
+    background: #3CB371;
+    border: 3px solid #2E8B57;
     color: #fff;
     text-transform: uppercase;
-    transition: background 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
 
+}
+
+.btn:hover {
+  background:#2E8B57;
 }
 
 .btn::after {
@@ -120,20 +124,21 @@ p {
   border: 1px solid #71A7E2;
   border-radius: 3px;
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity, border 0.5s ease-in-out;
 }
 
 .btn:focus::after {
   opacity: 1;
 }
 
-.btn:hover {
-  background: #84e271;
-}
+
 
 .btn:active {
   background: #0E3B6C;
 }
+
+
+
 
 :root {
   --gap: 30px;
@@ -145,3 +150,6 @@ p {
   color: var(--white);
   border-radius: 3px;
 }
+
+
+
