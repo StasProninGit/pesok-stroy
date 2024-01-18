@@ -1,9 +1,19 @@
 .produkt {
+  display: flex;
+  margin-bottom: 60px;
+  background: -webkit-linear-gradient(36deg, #ffa500,#ffa500,#dfeed4);
+  background: linear-gradient(36deg, #ffa60023,#ffa6002d,#dfeed4);
+}
+
+.produkt__title {
   margin-bottom: 60px;
 }
 
 .produkt__text {
-  margin-bottom: 60px;
+  margin: 0 auto 60px;
+  align-self: center;
+  max-width: 50%;
+  text-align: center;
 }
 
 article {
