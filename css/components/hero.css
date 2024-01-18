@@ -11,7 +11,7 @@
 
 .hero__wrapper {
     background-image: linear-gradient(to top, rgba(15, 15, 15, 0.3), rgba(48, 47, 47, 0.144)), url(
-      "/img/hero5.jpg");
+      "/img/hero1.jpg");
 
     background-size: cover;
     color: var(--white);
@@ -24,7 +24,7 @@
     font-size: 60px;
     font-weight: 900;
     text-align: left;
-    color: var(--orange);
+    color: var(--white);
     text-shadow: rgb(7, 7, 7) 3px 3px 3px;
 
 
@@ -45,9 +45,14 @@
     margin-bottom: 60px;
     text-align: left;
     font-size: 40px;
-    font-weight: 900;
-    color: var(--orange);
+    font-weight: 500;
+    color: var(--white);
     text-shadow: rgb(7, 7, 7) 3px 3px 3px;
+  }
+
+  .hero__price span {
+    color: var(--orange);
+    font-weight: 900;
   }
 
   /* .header__btn {
