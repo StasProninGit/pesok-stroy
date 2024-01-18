@@ -10,7 +10,7 @@
 
 .hero__wrapper {
     background-image: linear-gradient(to top, rgba(15, 15, 15, 0.6), rgba(48, 47, 47, 0.144)), url(
-      "/img/2.webp");
+      "/img/hero1.jpg");
 
     background-size: cover;
     color: var(--white);

@@ -29,12 +29,19 @@
 /* header__middle  */
 
 .header__middle__time {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: center;
   font-weight: 300;
   font-size: 16px;
   color: var(--gray1);
 }
 
 .header__middle__call {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   font-weight: 300;
   font-size: 16px;
   color: var(--gray1);
@@ -51,15 +58,38 @@
   justify-content: space-between;
 }
 
+.header__middle__contact {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 10px;
+
+}
+
 .header__link i {
   color: var(--orange);
+  font-size: 18px;
 }
 
 .header__middle__contact__phone i {
   color: var(--orange);
+  font-size: 18px;
 }
 
-.header__middle__contact__mail {
+.header__middle__contact__mail i {
   color: var(--orange);
+}
+
+.header__middle__contact__mail a {
+  border-bottom: 1px dashed var(--orange);
+}
+
+.header__link a {
+  border-bottom: 1px dashed var(--orange);
+}
+
+.header__middle__contact__phone a {
+  font-size: 18px;
+  font-weight: 900;
 }
 
