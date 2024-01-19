@@ -1,3 +1,12 @@
+.delivery {
+  background-image: linear-gradient(to top, rgba(15, 15, 15, 0.3), rgba(48, 47, 47, 0.144)), url(
+    "/img/deliverywrapper.jpg");
+
+  background-size: cover;
+  color: var(--white);
+
+}
+
 .delivery__content {
   margin-bottom: 60px;
   display: flex;
@@ -10,19 +19,22 @@
 
 .delivery__content__wrap {
   padding: 30px 120px 30px 30px;
-  background-color: rgb(191, 221, 248);
-  border-radius: 15px;
+  /* background-color: rgb(191, 221, 248);
+  border-radius: 15px; */
 
 }
 
 .delivery__title {
-  margin-bottom: 120px;
+  margin-bottom: 60px;
 }
 
 .delivery__content__left__list {
+  font-size: 28px;
+  font-weight: 300;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  text-shadow: rgb(7, 7, 7) 3px 3px 3px;
 }
 
 .delivery__content__left__list li::before{
@@ -31,8 +43,8 @@
   background: url(/img/galkaor.svg) no-repeat;
   position: relative;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 42px;
+  height: 42px;
 }
 
 .delivery__content__left__list li p {

@@ -13,7 +13,20 @@
   gap: 50px;
 }
 
+.sert__left {
+  align-self: center;
+}
+
 .sert__left__list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.sert__left__list p {
+  font-size: 26px;
+  font-weight: 300px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -26,8 +39,8 @@
   background: url(/img/galkaor.svg) no-repeat;
   position: relative;
   float: left;
-  width: 64px;
-  height: 64px;
+  width: 48px;
+  height: 48px;
 }
 
 .sert__left__list li p {

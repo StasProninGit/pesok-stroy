@@ -160,7 +160,6 @@
   padding: 10px;
   text-align: center;
   border: 1px solid #70c05b;
-  border-radius: 4px;
   cursor: pointer; /* Меняем курсор при наведении */
   transition: 0.2s;
   margin-top: auto; /* Прижимаем кнопку к низу карточки */

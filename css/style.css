@@ -27,6 +27,7 @@ img {
 
 body {
   font-family: 'Fira Sans', sans-serif;
+  font-size: 300;
 }
 
 /* .body_wraper {
@@ -146,10 +147,10 @@ p {
 }
 
 .section__title__span {
-  padding: 10px;
+  padding: 5px 10px;
   background: var(--orange);
   color: var(--white);
-  border-radius: 3px;
+
 }
 
 
