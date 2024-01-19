@@ -1,0 +1,57 @@
+
+.services__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15px;
+
+}
+
+.services__card {
+
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(128, 128, 128, 0.2);
+  gap: 25px;
+
+}
+
+.services__card__bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.services__card__bottom__link {
+  font-size: 36px;
+  font-weight: 300;
+  align-self: center;
+}
+
+.services__card__bottom__text {
+  padding: 25px;
+  font-weight: 300;
+}
+
+
+.services__card__img1 {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to top, rgba(15, 15, 15, 0), rgba(48, 47, 47, 0.6)), url(
+      "/img/cardsnow.jpg");
+      background-size: cover;
+}
+
+.services__card__img2 {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to top, rgba(15, 15, 15, 0), rgba(48, 47, 47, 0.6)), url(
+      "/img/cardsnow.jpg");
+      background-size: cover;
+}
+.services__card__img3 {
+  width: 100%;
+  height: 200px;
+  background-image: linear-gradient(to top, rgba(15, 15, 15, 0), rgba(48, 47, 47, 0.6)), url(
+      "/img/cardsnow.jpg");
+      background-size: cover;
+}
