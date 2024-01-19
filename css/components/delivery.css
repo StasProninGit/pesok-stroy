@@ -1,5 +1,5 @@
-.delivery {
-  background-image: linear-gradient(to top, rgba(15, 15, 15, 0.3), rgba(48, 47, 47, 0.144)), url(
+.delivery__wrapper {
+  background-image: linear-gradient(to top, rgba(15, 15, 15, 0.1), rgba(48, 47, 47, 0.1)), url(
     "/img/deliverywrapper.jpg");
 
   background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .delivery__content__wrap {
-  padding: 30px 120px 30px 30px;
+  padding: 60px 120px 60px 30px;
   /* background-color: rgb(191, 221, 248);
   border-radius: 15px; */
 
@@ -29,7 +29,7 @@
 }
 
 .delivery__content__left__list {
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 300;
   display: flex;
   flex-direction: column;
@@ -40,7 +40,7 @@
 .delivery__content__left__list li::before{
   margin-right: 30px;
   content: "";
-  background: url(/img/galkaor.svg) no-repeat;
+  background: url(/img/galkaor2.svg) no-repeat;
   position: relative;
   float: left;
   width: 42px;
