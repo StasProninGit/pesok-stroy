@@ -119,12 +119,13 @@
   outline: none;
   border: none;
   padding: 10px 20px;
+  cursor: pointer;
   transition: 0.2s; /* чтобы плавно менялся цвет при наведении (:hover) */
 }
 
 /* Меняем цвет фона при наведении на кнопку */
 .button input[type="button"]:hover {
-  background: rgb(0, 0, 207);
+  background: #34c924;
 }
 
 /* Меняем стили при ширине экрана меньше 800px */
