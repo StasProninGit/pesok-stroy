@@ -1,0 +1,24 @@
+
+.contact__main__content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact__main__content__list__item__title {
+  color: var(--orange);
+}
+
+.contact__main__content__list__item a {
+  transition: all 0.3s ease-in-out;
+}
+
+.contact__main__content__list__item a:hover {
+  text-decoration: underline;
+}
+
+.contact__main__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

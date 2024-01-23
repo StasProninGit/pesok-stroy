@@ -1,0 +1,40 @@
+.aboutcompani__content {
+
+  width: 75%;
+}
+
+.aboutcompani__content__title {
+  margin-bottom: 10px;
+  color: var(--orange);
+  font-weight: 900;
+  font-size: 20px;
+
+}
+
+.aboutcompani__content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.aboutcompani__content__text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.aboutcompani__content__text__style {
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.margin30px {
+  margin-bottom: 30px;
+}
+
+.aboutcompani__content__list__item a {
+  transition: all 0.5s ease-in-out;
+}
+
+.aboutcompani__content__list__item a:hover {
+  text-decoration: underline;
+}
