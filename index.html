@@ -19,6 +19,8 @@
 <body>
 
 
+  <!-- <?php include "block/header.php"; ?> -->
+
   <header class="header">
     <div class="header__top">
       <div class="container">
@@ -174,10 +176,11 @@
           <h1 class="hero__title">
             Песок Строительный
           </h1>
-          <P class="hero__text">
-            Доставка по Москве и Московской области<br> по выгодной цене!<br>
+          <p class="hero__text">Доставка по Москве и Московской области<br> по выгодной цене!<br>
             Всегда в наличии!
-          </P>
+          </p>
+
+
           <p class="hero__price">
             Цена от <span>350 руб.</span> 1 м3
           </p>
@@ -571,7 +574,7 @@
 
       </div>
 
-      </div>
+
       <div class="delivery__content__bottom">
         <h3 class="delivery__content__bottom__title section-title">
           ДОСТАВКА ОСУЩЕСТВЛЯЕТСЯ СЛЕДУЮЩИМИ САМОСВАЛАМИ
@@ -736,6 +739,50 @@
 
     </section>
 
+    <section class="zakaz">
+      <h3 class="zakaz__title section-title">Доставим заказ уже завтра, точно в согласованное время</h3>
+      <p class="zakaz__text">Наши клиенты оперативно получают продукт нужного количества. Для проезда в Москве оформляем
+        все необходимые пропуски. Наши водители отлично знают Подмосковье, поэтому без проблем доставят заказ в любое
+        место</p>
+      <div class="container">
+
+        <div class="zakaz__content">
+          <h3 class="zakaz__title">Как сделать заказ</h3>
+
+            <ul class="zakaz__content__top__list list-reset">
+              <li class="zakaz__content__top__list__item">
+                <p>Выбираете товар</p>
+                <img src="/img/pesok1.webp" alt="">
+                <p>Оформляете заказ</p>
+              </li>
+              <li class="zakaz__content__top__list__item">
+                <p>Мы связываемся с вами</p>
+                <img src="/img/manager1.png" alt="">
+                <p>Уточняем время доставки</p>
+              </li>
+              <li class="zakaz__content__top__list__item">
+                <p>Заказ привозим точно в срок</p>
+                <img src="/img/hand1.jpg" alt="">
+                <p>Вы оплачиваете его на месте</p>
+              </li>
+            </ul>
+
+          <div class="zakaz__content__bottom">
+            <div class="zakaz__content__bottom__left">
+              <h3>Консультация по продукции</h3>
+              <p>Не знаете какой грунт выбрать? Звоните, мы расскажем вам, что лучше подойдет для ваших задач.</p>
+            </div>
+            <div class="zakaz__content__bottom__left">
+              <h3>А так же</h3>
+              <p>Рассчитаем стоимость заказа с учетом его объема и доставки.</p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
     <section class="form">
 
 
@@ -745,72 +792,72 @@
 
 
 
-        <!-- content содержит содержимое формы -->
-        <div class="content">
+          <!-- content содержит содержимое формы -->
+          <div class="content">
 
-          <!-- Левая колонка: адрес, телефоны, email. Можете добавить свое -->
-          <div class="left-side">
-            <div class="address details">
+            <!-- Левая колонка: адрес, телефоны, email. Можете добавить свое -->
+            <div class="left-side">
+              <div class="address details">
 
-              <!-- Вместо классов: название шрифтовых иконок (fontawesome.com) -->
-              <i class="fas fa-map-marker-alt" style="color: #ee591f"></i>
+                <!-- Вместо классов: название шрифтовых иконок (fontawesome.com) -->
+                <i class="fas fa-map-marker-alt" style="color: #ee591f"></i>
 
-              <!-- topic - заголовок, text-one, text-two - текст -->
-              <div class="topic">Офис</div>
-              <div class="text-one">г. Москва</div>
-              <div class="text-two">3-й угрешский проезд д 6 стр 1</div>
-            </div>
-            <div class="phone details">
-              <i class="fas fa-phone-alt" style="color: #ee591f"></i>
-              <div class="topic">Телефон</div>
-              <div class="text-one">8-800-000-00-00</div>
-              <div class="text-two">8-900-000-00-00</div>
-            </div>
-            <div class="email details">
-              <i class="fas fa-envelope" style="color: #ee591f"></i>
-              <div class="topic">Email</div>
-              <div class="text-one">support@site.com</div>
-              <div class="text-two">admin@site.com</div>
-            </div>
-          </div>
-
-          <!-- Правая колонка: сама форма -->
-          <div class="right-side">
-
-            <!-- Заголовок для формы -->
-            <div class="topic-text">Заказать Песок</div>
-
-            <!-- Какой-то дополнительный текст -->
-            <p>
-              Заполните форму и мы с вами свяжемся!
-            </p>
-
-            <!-- Форма обратной связи -->
-            <form action="#">
-
-              <!-- Каждый input для выравнивания вкладываем в блок input-box -->
-              <div class="input-box">
-                <input type="text" placeholder="Ваше имя" />
+                <!-- topic - заголовок, text-one, text-two - текст -->
+                <div class="topic">Офис</div>
+                <div class="text-one">г. Москва</div>
+                <div class="text-two">3-й угрешский проезд д 6 стр 1</div>
               </div>
-              <!-- <div class="input-box">
+              <div class="phone details">
+                <i class="fas fa-phone-alt" style="color: #ee591f"></i>
+                <div class="topic">Телефон</div>
+                <div class="text-one">8-800-000-00-00</div>
+                <div class="text-two">8-900-000-00-00</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope" style="color: #ee591f"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">support@site.com</div>
+                <div class="text-two">admin@site.com</div>
+              </div>
+            </div>
+
+            <!-- Правая колонка: сама форма -->
+            <div class="right-side">
+
+              <!-- Заголовок для формы -->
+              <div class="topic-text">Заказать Песок</div>
+
+              <!-- Какой-то дополнительный текст -->
+              <p>
+                Заполните форму и мы с вами свяжемся!
+              </p>
+
+              <!-- Форма обратной связи -->
+              <form action="#">
+
+                <!-- Каждый input для выравнивания вкладываем в блок input-box -->
+                <div class="input-box">
+                  <input type="text" placeholder="Ваше имя" />
+                </div>
+                <!-- <div class="input-box">
               <input type="text" placeholder="Введите email" />
             </div> -->
-              <div class="input-box">
-                <input type="text" placeholder="Введите телефон" />
-              </div>
-              <div class="input-box message-box">
-                <textarea placeholder="Сообщение"></textarea>
-              </div>
-              <div class="button">
-                <input type="button" value="Отправить" />
-              </div>
-            </form>
-          </div>
+                <div class="input-box">
+                  <input type="text" placeholder="Введите телефон" />
+                </div>
+                <div class="input-box message-box">
+                  <textarea placeholder="Сообщение"></textarea>
+                </div>
+                <div class="button">
+                  <input type="button" value="Отправить" />
+                </div>
+              </form>
+            </div>
 
+          </div>
+          <div id="map" class="ymap"></div>
         </div>
-        <div id="map" class="ymap"></div>
       </div>
-    </div>
 
 
 
@@ -818,8 +865,6 @@
     </section>
 
   </main>
-
-
 
   <footer class="footer">
     <div class="footer__wrapper">
@@ -915,6 +960,7 @@
   <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU"></script>
   <script src="/js/script.js"></script>
 
+  <!-- <?php include "/block/footer.php"; ?> -->
 
 
 

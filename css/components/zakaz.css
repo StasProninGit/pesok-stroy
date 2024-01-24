@@ -1,0 +1,72 @@
+.zakaz {
+  padding: 30px 30px 60px 30px;
+  background-color: rgba(116, 116, 116, 0.2);
+  margin-bottom: 60px;
+}
+
+.zakaz__text {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.zakaz__title {
+  font-size: 32px;
+  text-align: center;
+  margin: 30px 0px;
+}
+
+.zakaz__content {
+  padding: 30px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--white);
+  border-radius: 25px;
+}
+
+.zakaz__content h3,
+.zakaz__content__bottom__left h3 {
+  color: rgb( 118, 206, 62 );
+}
+
+.zakaz__content__top__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.zakaz__content__top__list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.zakaz__content__top__list__item img {
+width: 150px;
+height: 150px;
+border-radius: 50%;
+}
+
+.zakaz__content__bottom {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.zakaz__content__bottom__left {
+  max-width: 30%;
+}
+
+.zakaz__content__bottom__left h3 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+.zakaz__content__bottom__left p {
+  font-weight: 300;
+}

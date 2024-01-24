@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;500;700;900&display=swap" rel="stylesheet">
 
-  <title>Контакты</title>
+  <title>Вопросы</title>
 
 </head>
 
@@ -154,38 +154,78 @@
     </div>
   </header>
 
-  <main class="contact__main">
-    <h2 class="contact__main__title section-title">Контакты</h2>
+  <main class="question">
     <div class="container">
-      <div class="contact__main__content">
+      <nav class="accordion arrows">
+        <header class="box">
+          <label for="acc-close" class="box-title">Часто задаваемые вопросы</label>
+        </header>
+        <input type="radio" name="accordion" id="cb1" />
+        <section class="box">
+          <label class="box-title" for="cb1">Как быстро вы можете привезти песок?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">После поступления денежных средств, на следующий день.</div>
+        </section>
+        <input type="radio" name="accordion" id="cb2" />
+        <section class="box">
+          <label class="box-title" for="cb2">Какие есть варанты оплаты?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">Безналичный способ оплаты, либо за наличные </div>
+        </section>
+        <input type="radio" name="accordion" id="cb3" />
+        <section class="box">
+          <label class="box-title" for="cb3">Сколько стоит песок на самовывоз?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">У нас нет самовывоза  — доставка только транспортом компании</div>
+        </section>
+        <input type="radio" name="accordion" id="cb4" />
+        <section class="box">
+          <label class="box-title" for="cb4">Вдруг мне все привезут?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">Все машины проходят весовой контроль. Учитывается только фактически отгруженная продукция.</div>
+        </section>
+        <input type="radio" name="accordion" id="cb5" />
+        <section class="box">
+          <label class="box-title" for="cb5">Сколько стоит песок на самовывоз?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">У нас нет самовывоза  — доставка только транспортом компании</div>
+        </section>
+        <input type="radio" name="accordion" id="cb6" />
+        <section class="box">
+          <label class="box-title" for="cb6">Нужен крупный песок. Сколько он стоит с доставкой?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">Для уточнения цены позвоните по одному из номеров телефона.</div>
+        </section>
+        <input type="radio" name="accordion" id="cb7" />
+        <section class="box">
+          <label class="box-title" for="cb7">Работаете ли вы по выходным?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">Компания Песок-Строй работает круглосуточно без праздников и выходных 24/7</div>
+        </section>
+        <input type="radio" name="accordion" id="cb8" />
+        <section class="box">
+          <label class="box-title" for="cb8">Вы сделаете скидку?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">Да, за предоплату большого объема</div>
+        </section>
+        <input type="radio" name="accordion" id="cb9" />
+        <section class="box">
+          <label class="box-title" for="cb9">В какое время дня осуществляется доставка?</label>
+          <label class="box-close" for="acc-close"></label>
+          <div class="box-content">Доставка песка и щебня производится круглосуточно.</div>
+        </section>
 
-
-        <ul class="contact__main__content__list list-reset">
-
-          <li class="contact__main__content__list__item">
-            <h3 class="contact__main__content__list__item__title">Офис:</h3>
-            <span>г.Москва, 3-й угрешский проезд 6 стр 1</span>
-          </li>
-
-          <li class="contact__main__content__list__item">
-            <h3 class="contact__main__content__list__item__title">Телефон:</h3><a href="#">+7
-              999 999 99 99 (Отдел Продаж)</a>
-          </li>
-
-          <li class="contact__main__content__list__item">
-            <h3 class="contact__main__content__list__item__title">Почта:</h3><a href="#">info@pesok-stroy.ru</a>
-          </li>
-
-        </ul>
-        <div id="map" class="ymap"></div>
-
-
-
-      </div>
+        <input type="radio" name="accordion" id="acc-close" />
+      </nav>
 
     </div>
 
+
+
+
   </main>
+
+
 
 
 
