@@ -1,0 +1,25 @@
+.dostavkaoplata {
+  margin: 30px 0px;
+}
+
+.dostavkaoplata__dostavka,
+.dostavkaoplata__oplata {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fa-minus {
+  font-size: 18px;
+  margin-right: 10px;
+  color: var(--orange);
+}
+
+.dostavkaoplata__dostavka {
+  margin-bottom: 30px;
+}
+
+
+.dostavkaoplata__dostavka__list li:not(:last-child) {
+  margin-bottom: 10px;
+}
