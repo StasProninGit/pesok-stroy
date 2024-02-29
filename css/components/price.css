@@ -1,0 +1,48 @@
+table.price__pesok {
+  margin: 0 auto;
+  border: 2px solid #FFFFFF;
+  width: 80%;
+  text-align: center;
+  /* border-collapse: collapse; */
+  /* border: 2px solid var(--orange); */
+}
+table.price__pesok td, table.price__pesok th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 4px;
+}
+table.price__pesok tbody td {
+  font-size: 16px;
+}
+table.price__pesok td:nth-child(even) {
+  background: #EBEBEB;
+}
+table.price__pesok thead {
+  background: #FFFFFF;
+  /* border-bottom: 4px solid var(--orange); */
+}
+table.price__pesok thead th {
+  background-color: var(--orange);
+  font-size: 22px;
+  font-weight: bold;
+  color: var(--white);
+  text-align: center;
+  /* border-left: 4px solid var(--orange); */
+}
+table.price__pesok thead th:first-child {
+  border-left: none;
+}
+
+table.price__pesok tfoot td {
+  font-size: 14px;
+}
+
+.price__text {
+  width: 40%;
+  margin-top: 30px;
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.price__text:last-child {
+  margin-bottom: 30px;
+}
