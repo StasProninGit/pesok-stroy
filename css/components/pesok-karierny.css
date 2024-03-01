@@ -1,0 +1,87 @@
+.block-product {
+  display: flex;
+  justify-content: space-around;
+  margin:0 30px 30px 30px;
+}
+
+.block-product__img {
+  display: flex;
+  background-image: url("/img/pesokrarierny.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+
+}
+
+.block-product__img__img {
+  align-self: flex-end;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+  font-size: 24px;
+  color: var(--orange);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.block-product__desk__info__title {
+  margin-bottom: 30px;
+}
+
+.block-product__desk__info__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.block-product__desk__info__list__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.block-product__desk {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.block-product__desk__button {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.block-product__desk__button__left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.block-product__desk2 {
+  display: flex;
+}
+
+.block-product__desk2__list {
+  background-color: rgba(128, 128, 128, 0.1);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 20px;
+  padding: 30px;
+  flex-grow: 1;
+}
+
+.block-product__desk2__list__item {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.block-product__desk2__list__right {
+  font-size: 14px;
+  font-weight: 100;
+}
+
