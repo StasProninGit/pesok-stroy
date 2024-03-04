@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-around;
   margin:0 30px 30px 30px;
+  gap: 15px;
 }
 
 .block-product__img {
@@ -24,6 +25,7 @@
 }
 
 .block-product__desk__info__title {
+  font-size: 22px;
   margin-bottom: 30px;
 }
 
@@ -83,5 +85,92 @@
 .block-product__desk2__list__right {
   font-size: 14px;
   font-weight: 100;
+  white-space: nowrap;
 }
+
+.fa-check {
+  color: #34c924;
+}
+
+.block-product__desk__button__left__text {
+  font-weight: 100;
+}
+
+.block-product__desk__button__left__price {
+  font-size: 22px;
+}
+
+.block-product__desk__info__list__item__par {
+  font-size: 18px;
+}
+
+.advantage-pesok__content__list {
+  background-color: rgba(255, 166, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: space-around;
+
+
+}
+
+.advantage-pesok__content__list__item {
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+  align-items: center;
+}
+
+.advantage-pesok__content__list__item__img {
+  display: flex;
+  background-color: hsla(114, 70%, 46%, 0.8);
+  width: 55px;
+  height: 55px;
+  border-radius:10px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+}
+
+.advantage-pesok__content__list__item__img i {
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: -50%;
+  right: -50%;
+  top: 13px;
+  text-align: center;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+.advantage-pesok__content__list__item__text {
+  white-space: wrap;
+}
+
+.advantage-pesok__text {
+  margin: 60px 0;
+  font-size: 22px;
+  font-weight: 100;
+}
+
+.advantage-pesok__price__text {
+  margin: 30px 0;
+  font-weight: 100;
+}
+
 
