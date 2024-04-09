@@ -81,6 +81,10 @@
   flex-grow: 1;
 }
 
+.block-product__desk2__list span {
+  border-bottom: 2px dashed var(--orange);
+}
+
 .block-product__desk2__list__item {
   display: flex;
   justify-content: space-between;
